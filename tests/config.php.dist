@@ -1,0 +1,13 @@
+<?php
+
+// constructor params
+define('SENDER', 'sender@example.com'); // sender address
+define('FQDN', 'fqdn.example.com'); // your server's FQDN
+
+// email addresses for tests
+define('EMAIL_VALID', 'admin@example.com'); // valid address
+define('EMAIL_BAD_SYNTAX', 'admin'); // bad syntax
+define('EMAIL_USER_UNKNOWN', 'unknown@example.com'); // user unknown
+define('EMAIL_SERVER_NOT_FOUND', 'notfound@example.com'); // server not found
+
+?>
